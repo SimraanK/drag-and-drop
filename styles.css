@@ -1,25 +1,22 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.item {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    margin-right: 10px;
-    display: inline-block;
-    cursor: move;
-}
-
-.droppable {
-    border: 2px dashed #333;
-    height: 200px;
     width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
     padding: 10px;
-}
-
-.droppable.dragging-over {
-    border-color: #ff0000;
-}
+  }
+  
+  .item {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    margin: 5px;
+    padding: 10px;
+    cursor: move;
+  }
+  
+  .success {
+    background-color: #c3e6cb;
+  }
+  
